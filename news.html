@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="utf-8">
@@ -22,9 +22,7 @@
         
         <!-- Header & Navigation -->
         <header class="js-top">
-            <a class="logo" href="index.html">
-                Xlab
-            </a>
+            <a class="logo" href="index.html" data-cms="global.siteName">Xlab</a>
             
             <div class="top">
                 <nav class="navbar js-navbar">
@@ -111,9 +109,7 @@
 
         <!-- Footer -->
         <footer class="footer">
-            <div class="footer__copyright">
-                &copy; 2026 My Portfolio. 직접 수정한 정적 페이지입니다.
-            </div>
+            <div class="footer__copyright" data-cms="global.footerCopyright"></div>
             <div class="footer__social">
                 <a href="#" aria-label="Github"><svg class="icon"><use xlink:href="assets/svg/svg-map.svg#github" /></svg></a>
             </div>
@@ -123,6 +119,10 @@
 
     <!-- Theme JS -->
     <script defer src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script defer src="data/kr.js"></script>
+    <script defer src="assets/js/cms.js"></script>
     <script defer src="assets/js/scripts.min.js"></script>
 </body>
 </html>
+
+
