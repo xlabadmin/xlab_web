@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>포트폴리오 상세 | 내 포트폴리오</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700%7CMuli:400,600&amp;display=swap" rel="stylesheet"> 
+    
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">	
+    <link rel="stylesheet" href="assets/css/photoswipe.css">
+    
+    <script>
+        window.addEventListener('load', function load() {
+            window.removeEventListener('load', load, false);
+            document.body.classList.remove('js-loading');
+        }, false);
+    </script>
+</head>
+<body class="js-loading">
+    <div class="container">
+        
+        <!-- Header & Navigation -->
+        <header class="js-top is-sticky">
+            <a class="logo" href="index.html">
+                My Portfolio
+            </a>
+            
+            <div class="top">
+                <nav class="navbar js-navbar">
+                    <button class="navbar__toggle js-navbar__toggle" aria-expanded="false">Menu</button>
+                    <ul class="navbar__menu">
+                        <li><a href="index.html">포트폴리오</a></li>
+                        <li><a href="about.html">소개</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="u-cutting">
+            <article class="post">
+                <!-- Featured Image -->
+                <figure class="post__featured-image post__image--full">
+                    <img src="assets/images/sample-portfolio-1.jpg" alt="프로젝트 대표 이미지" onerror="this.src='https://via.placeholder.com/1200x600?text=Featured+Image'">
+                    <figcaption>포트폴리오 디자인 목업</figcaption>
+                </figure>
+                
+                <!-- Post Header -->
+                <header class="post__header">
+                    <h1>첫 번째 포트폴리오 프로젝트 상세 내역</h1>
+                    <p class="post__meta">
+                        작성자 <a href="about.html" rel="author" title="운영자">운영자</a>
+                        <br/>작성일 <time datetime="2026-03-17T12:00">2026년 3월 17일</time>
+                    </p>
+                </header>
+                
+                <!-- Post Entry (Content) -->
+                <div class="post__entry">
+                    <h2>프로젝트 개요</h2>
+                    <p>이곳에 프로젝트가 어떤 목적을 가지고 만들어졌는지, 주요 기능과 역할은 무엇인지 상세히 적습니다. 텍스트 에디터에서 자유롭게 문단(<code>&lt;p&gt;</code>)과 헤딩(<code>&lt;h2&gt;</code>)을 추가해보세요.</p>
+                    
+                    <h3>사용 기술 스택</h3>
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>Git, GitHub Pages</li>
+                    </ul>
+                    
+                    <blockquote>
+                        "가장 심플하고 직관적인 방식으로 디자인의도를 전달합니다."
+                    </blockquote>
+                    
+                    <h3>상세 이미지 및 스크린샷</h3>
+                    <p>내부 콘텐츠 영역에는 추가적인 이미지 태그를 삽입할 수 있습니다.</p>
+                    <p><img src="assets/images/sample-portfolio-detail.jpg" alt="상세 스크린샷" onerror="this.src='https://via.placeholder.com/800x400?text=Detail+Image'"></p>
+                </div>
+                
+                <!-- Post Footer (Tags) -->
+                <footer class="post__footer">
+                    <ul class="post__tag">
+                        <li><a href="#">웹 디자인</a></li>
+                        <li><a href="#">HTML</a></li>
+                    </ul>
+                </footer>
+            </article>
+            
+            <!-- Post Navigation (이전글 / 다음글) -->
+            <nav class="post-nav">
+                <div class="post-nav__prev">
+                    <a href="#" rel="prev" class="post-nav__link">
+                        이전 글
+                        <h5>이전 프로젝트 제목</h5>
+                    </a>
+                </div>
+                <div class="post-nav__next">
+                    <a href="#" rel="next" class="post-nav__link">
+                        다음 글
+                        <h5>다음 프로젝트 제목</h5>
+                    </a>
+                </div>
+            </nav>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__copyright">
+                &copy; 2026 My Portfolio. 직접 수정한 정적 페이지입니다.
+            </div>
+            <div class="footer__social">
+                <a href="#" aria-label="Github"><svg class="icon"><use xlink:href="assets/svg/svg-map.svg#github" /></svg></a>
+            </div>
+        </footer>
+        
+    </div> <!-- end container -->
+
+    <!-- Theme JS -->
+    <script defer src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script defer src="assets/js/scripts.min.js"></script>
+</body>
+</html>

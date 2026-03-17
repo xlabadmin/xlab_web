@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>내 포트폴리오</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700%7CMuli:400,600&amp;display=swap" rel="stylesheet"> 
+    
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">	
+    <link rel="stylesheet" href="assets/css/p-slider.css">
+    
+    <!-- Remove Loading Class Script -->
+    <script>
+        window.addEventListener('load', function load() {
+            window.removeEventListener('load', load, false);
+            document.body.classList.remove('js-loading');
+        }, false);
+    </script>
+</head>
+<body class="js-loading">
+    <div class="container">
+        
+        <!-- Header & Navigation -->
+        <header class="js-top">
+            <a class="logo" href="index.html">
+                My Portfolio
+            </a>
+            
+            <div class="top">
+                <nav class="navbar js-navbar">
+                    <button class="navbar__toggle js-navbar__toggle" aria-expanded="false">Menu</button>
+                    <ul class="navbar__menu">
+                        <li><a href="index.html">포트폴리오</a></li>
+                        <li><a href="about.html">소개</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Slider Section -->
+            <div class="slider">
+                <div class="slider__viewport zoomIn">
+                    
+                    <!-- Slider Down: Images -->
+                    <div class="slider__down">
+                        <img src="assets/images/sample-portfolio-1.jpg" alt="첫 번째 프로젝트 이미지" onerror="this.src='https://via.placeholder.com/800x600?text=Project+1'">
+                        <img src="assets/images/sample-portfolio-2.jpg" alt="두 번째 프로젝트 이미지" onerror="this.src='https://via.placeholder.com/800x600?text=Project+2'">
+                        <img src="assets/images/sample-portfolio-3.jpg" alt="세 번째 프로젝트 이미지" onerror="this.src='https://via.placeholder.com/800x600?text=Project+3'">
+                    </div>
+                    
+                    <!-- Slider Up: Texts -->
+                    <div class="slider__up">
+                        
+                        <!-- Slide 1 Text (Active) -->
+                        <div class="slider__txt is-active">
+                            <div class="slider__txtwrap">
+                                <a href="#" class="slider__category" title="웹 디자인">웹 디자인</a>
+                                <h1>첫 번째 포트폴리오 프로젝트</h1>
+                                <a href="post.html" class="slider__btn">
+                                    <span class="slider__btn__txt">자세히 보기</span>
+                                    <span class="slider__btn__icon">
+                                        <svg><use xlink:href="assets/svg/svg-map.svg#arrow-next"/></svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 2 Text -->
+                        <div class="slider__txt">
+                            <div class="slider__txtwrap">
+                                <a href="#" class="slider__category" title="개발">개발</a>
+                                <h1>두 번째 포트폴리오 프로젝트</h1>
+                                <a href="post.html" class="slider__btn">
+                                    <span class="slider__btn__txt">자세히 보기</span>
+                                    <span class="slider__btn__icon">
+                                        <svg><use xlink:href="assets/svg/svg-map.svg#arrow-next"/></svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Slide 3 Text -->
+                        <div class="slider__txt">
+                            <div class="slider__txtwrap">
+                                <a href="#" class="slider__category" title="기타">기타</a>
+                                <h1>세 번째 포트폴리오 프로젝트</h1>
+                                <a href="post.html" class="slider__btn">
+                                    <span class="slider__btn__txt">자세히 보기</span>
+                                    <span class="slider__btn__icon">
+                                        <svg><use xlink:href="assets/svg/svg-map.svg#arrow-next"/></svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+                <!-- Pagination Dots -->
+                <div class="slider-dots slider-dots--right">
+                    <button class="slider-dots__item">1</button>
+                    <button class="slider-dots__item">2</button>
+                    <button class="slider-dots__item">3</button>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer__copyright">
+                &copy; 2026 My Portfolio. 직접 수정한 정적 페이지입니다.
+            </div>
+            
+            <!-- Social Buttons -->
+            <div class="footer__social">
+                <a href="#" aria-label="Github">
+                    <svg class="icon">
+                        <use xlink:href="assets/svg/svg-map.svg#github" />
+                    </svg>
+                </a>
+                <a href="#" aria-label="LinkedIn">
+                    <svg class="icon">
+                        <use xlink:href="assets/svg/svg-map.svg#linkedin" />
+                    </svg>
+                </a>
+            </div>
+        </footer>
+        
+    </div> <!-- end container -->
+
+    <!-- Theme JS -->
+    <script defer src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script defer src="assets/js/scripts.min.js"></script>
+</body>
+</html>
