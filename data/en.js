@@ -99,5 +99,18 @@ window.XlabData = {
         "visionDesc": "We create technologies that lead the world by eliminating instability and generating a whole new dimension of visual data.",
         "historyTitle": "History",
         "historyDesc": "Since our founding in 2024, we have been leading visual stabilization solutions in the defense, security, and commercial broadcasting sectors."
+    },
+
+    "ir": {
+        "pageTitle": "Investor Relations (IR)",
+        "notice": "Detailed indicators are currently under preparation. For specific investment inquiries, please use the Contact menu below."
+    },
+    "news": {
+        "pageTitle": "News & PR",
+        "notice": "The latest updates on Xlab will be available soon."
+    },
+    "careers": {
+        "pageTitle": "Careers",
+        "notice": "We are looking for talent to change the world with Xlab. (Detailed job descriptions are being prepared.)"
     }
 };

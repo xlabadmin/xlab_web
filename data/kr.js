@@ -101,5 +101,18 @@ window.XlabData = {
         "visionDesc": "우리는 흔들림(Instability)을 제거하여, 새로운 차원의 시각 데이터를 세상을 이끌어가는 기술을 만듭니다.",
         "historyTitle": "연혁 (History)",
         "historyDesc": "2024년 창립 이후 방산, 보안, 상업 방송 3대 핵심 분야 진출."
+    },
+
+    "ir": {
+        "pageTitle": "투자자 정보 (IR)",
+        "notice": "현재 상세 지표를 준비 중입니다. 자세한 기업 투자 정보는 아래 Contact 메뉴를 통해 문의 바랍니다."
+    },
+    "news": {
+        "pageTitle": "뉴스 및 PR",
+        "notice": "Xlab의 최신 소식이 곧 업데이트될 예정입니다."
+    },
+    "careers": {
+        "pageTitle": "인재 채용",
+        "notice": "Xlab과 함께 세상을 바꿀 인력을 찾습니다. (현재 각 직군별 세부 요강 준비 중)"
     }
 };
