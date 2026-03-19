@@ -41,7 +41,7 @@ window.XlabData = {
                 "title": "AI-Driven Ultra-Stable Algorithm",
                 "btnText": "About Us",
                 "btnLink": "company.html",
-                "image": "https://images.unsplash.com/photo-1544062322-90146e49ec9a?w=800&q=80"
+                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
             }
         ]
     },

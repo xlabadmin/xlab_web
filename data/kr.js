@@ -43,7 +43,7 @@ window.XlabData = {
                 "title": "AI 기반 초안정화(Ultra-Stable) 알고리즘",
                 "btnText": "기업 소개",
                 "btnLink": "company.html",
-                "image": "https://images.unsplash.com/photo-1544062322-90146e49ec9a?w=800&q=80"
+                "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
             }
         ]
     },
